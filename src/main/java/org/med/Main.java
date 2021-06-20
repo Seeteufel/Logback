@@ -12,17 +12,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Person adam = new Person("Adam", "Baldwin",
-                new Address("London", "548-AU4H", "Raw street", 120),
-                23);
-
-
         logger.debug("DEBUG");
         logger.info("INFO");
         logger.warn("WARNING");
         logger.error("ERROR");
         // <SLF4J> logger.fatal() -> http://www.slf4j.org/faq.html#fatal
-
 
     }
 }
