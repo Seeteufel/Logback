@@ -1,4 +1,4 @@
-package intro.tasks;
+package org.med;
 
 public class Person {
 
